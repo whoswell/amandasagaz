@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: darkblue;
+    padding: 20px 0;
+}
+
+.header-logo {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: gold;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.principal {
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
