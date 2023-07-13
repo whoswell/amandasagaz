@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: darkblue;
+    background: url(download.jpg);
     padding: 20px 0;
 }
 
@@ -14,7 +14,7 @@ header {
 }
 
 img {
-    width: 200px;
+    width: 350px;
 }
 
 nav {
@@ -54,6 +54,90 @@ nav a:hover {
     padding: 20px;
 }
 
-p {
+.paragrafo-1 {
+    text-align: justify;
+    margin: 0 auto;
+    padding: 1em 0;
+    width: 940px;
+}
+
+.missao {
+    text-align: justify;
+    margin: 0 auto;
+    padding: 1em 0;
+    width: 940px;
+}
+
+.banner {
     text-align: center;
 }
+
+.banner-principal {
+    width: 60%;
+}
+
+.beneficios {
+    padding: 3em 0;
+}
+
+.conteudo {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.titulo-principal-1 {
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.banner-amanda {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.banner-amanda:hover {
+	opacity: 0.3;
+}
+
+.sobre {
+    padding: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.about {
+    text-align: justify;
+}
+
+.about-principal {
+    margin: 0 auto;
+    padding: 1em 0;
+    width: 940px;
+}
+
+.foto-amanda {
+    width: 250px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+footer {
+   text-align: center;
+   background: url(download.jpg);
+}
+
+.copyright {
+    color: white;
+}
+
