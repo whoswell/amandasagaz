@@ -135,6 +135,8 @@ nav a:hover {
 footer {
    text-align: center;
    background: url(download.jpg);
+   position: absolute;
+   width: 100%;
 }
 
 .copyright {
