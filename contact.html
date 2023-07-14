@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
     <header>
        
         <div class="header-logo">
@@ -36,7 +35,40 @@
     </header>
 
     <main>
-        <h2>Contato</h2>
+        <form>
+            <label for="nomecompleto">Nome completo</label>
+            <input type="text" id="nomecompleto" class="input-padrao" required placeholder="José da Silva">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="number" id="telefone" class="input-padrao" required placeholder="(XX) 9XXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Digite sua dúvida"></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual o melhor horário para entrarmos em contato?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+
     </main>
 
     <footer>
