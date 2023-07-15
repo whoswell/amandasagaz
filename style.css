@@ -7,6 +7,10 @@ header {
     padding: 20px 0;
 }
 
+.img-logoprincipal {
+    padding: 30px;
+}
+
 .header-logo {
     position: relative;
     max-width: 1200px;
@@ -19,7 +23,7 @@ img {
 
 nav {
     position: absolute;
-    top: 80px;
+    top: 100px;
     right: 0;
 }
 
@@ -218,6 +222,11 @@ footer {
    background: url(download.jpg);
    position: absolute;
    width: 100%;
+}
+
+.rodape {
+    width: 400px;
+    padding: 30px;
 }
 
 .copyright {
