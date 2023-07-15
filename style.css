@@ -99,10 +99,6 @@ nav a:hover {
     padding-block-start: 20px;
 }
 
-em {
-    font-style: italic;
-}
-
 .lista-beneficios {
     width: 40%;
     display: inline-block;
