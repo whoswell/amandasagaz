@@ -3,11 +3,13 @@ body {
     width: 100%;
 }
 
+/*Backgroun do header - Imagem azul marinho*/
 header {
     background: url(download.jpg);
     padding: 20px 0;
 }
 
+/*Logo do header*/
 .img-logoprincipal {
     padding: 30px;
 }
@@ -22,6 +24,7 @@ img {
     width: 350px;
 }
 
+/*Menu de navegação*/
 nav {
     position: absolute;
     top: 100px;
@@ -45,6 +48,7 @@ nav a:hover {
     color: goldenrod;
 }
 
+/*Primeiro texto da página inicial*/
 .principal {
     padding: 30px;
     font-size: 20px;
@@ -60,6 +64,7 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Primeiro paragrafo da pagina inicial*/
 .paragrafo-1 {
     text-align: justify;
     margin: 0 auto;
@@ -68,11 +73,13 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Texto que reforça a importância de investir em planejamento previdenciário*/
 .invista {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Missão, visão e valores*/
 .missao {
     text-align: justify;
     margin: 0 auto;
@@ -81,6 +88,14 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+.segundo-titulo {
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-block-start: 20px;
+}
+
+/*Principal banner da página principal*/
 .banner {
     text-align: center;
 }
@@ -90,6 +105,7 @@ nav a:hover {
     padding: 50px;
 }
 
+/*Benefícios do planejamento previdenciário*/
 .beneficios {
     padding: 3em 0;
 }
@@ -106,19 +122,13 @@ nav a:hover {
     padding: 20px;
 }
 
-.segundo-titulo {
-    padding-left: 20px;
-    text-align: center;
-    font-weight: bold;
-    padding-block-start: 20px;
-}
-
 .lista-beneficios {
     width: 40%;
     display: inline-block;
     vertical-align: top;
 }
 
+/*Imagem benefícios*/
 .banner-amanda {
     width: 60%;
     opacity: 1;
@@ -130,6 +140,7 @@ nav a:hover {
 	opacity: 0.3;
 }
 
+/*Título sobre Amanda Sagaz*/
 .sobre {
     padding: 40px;
     text-align: center;
@@ -138,6 +149,7 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Sobre Amanda Sagaz*/
 .about {
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
@@ -149,17 +161,20 @@ nav a:hover {
     width: 940px;
 }
 
+/*Foto Amanda Sagaz*/
 .foto-amanda {
     width: 250px;
     float: left;
     margin: 0 20px 20px 0;
 }
 
+/*Main do sobre e página principal*/
 main {
     width: 940px;
 	margin: 0 auto;
 }
 
+/*Contato*/
 form {
     margin: 40px 0;
 }
@@ -210,6 +225,7 @@ form legend {
     transform: scale(1.2);
 }
 
+/*Botão WhatsApp*/
 .whatsapp-link {
     position: fixed;
     width: 60px;
@@ -229,6 +245,7 @@ form legend {
     margin-top: 16px;
 }
 
+/*Rodapé*/
 footer {
    text-align: center;
    background: url(download.jpg);
