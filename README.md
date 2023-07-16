@@ -5,3 +5,5 @@ Atualização na aba Sobre e Contato v.02
 Finalização e estilização do projeto Site sobre planejamento previdenciário Amanda Sagaz v.03
 <br>
 Adição do ícone na aba do navegado, adição de fonte e um texto falando sobre os motivos de fazer o planejamento previdenciário
+<br>
+Ultimos detalhes na página da Advogada Amanda Sagaz
