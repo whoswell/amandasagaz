@@ -6,4 +6,6 @@ Finalização e estilização do projeto Site sobre planejamento previdenciário
 <br>
 Adição do ícone na aba do navegado, adição de fonte e um texto falando sobre os motivos de fazer o planejamento previdenciário
 <br>
-Ultimos detalhes na página da Advogada Amanda Sagaz
+Ultimos detalhes na página da Advogada Amanda 
+<br>
+Projeto feito em 6 dias usando HTML5 e CSS3, projeto autoral de Wellington Fernando para a imersão Vire Dev com Pedro Marins.
